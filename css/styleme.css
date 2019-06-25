@@ -23,7 +23,7 @@ ol li{
     font-weight: 200;    
 }
 
-p#description{
+.description{
     text-align: center;
 }
 a{
