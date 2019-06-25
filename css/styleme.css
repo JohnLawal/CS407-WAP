@@ -10,6 +10,7 @@ p::first-letter{
 }
 dl, dl * {
     font-size: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 ul li{
