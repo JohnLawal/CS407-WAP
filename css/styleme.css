@@ -3,7 +3,10 @@ h1{
 }
 
 p{
-    color: blue;
+    color: darkred;
+}
+p::first-letter{
+    font-size: 1.5em;
 }
 
 ul li{
@@ -20,6 +23,9 @@ p#description{
     text-align: center;
 }
 a{
-    color:darkkhaki;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
