@@ -1,0 +1,22 @@
+h1{
+    color: chocolate;
+}
+
+p{
+    color: blue;
+}
+
+ul li{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;   
+}
+
+ol li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;    
+}
+
+p#description{
+    text-align: center;
+}
+
