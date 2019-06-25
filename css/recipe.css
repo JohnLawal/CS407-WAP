@@ -40,3 +40,11 @@ ul#directions {
 span.dir-point {
     font-weight: bold;
 }
+
+span.deprecated {
+    text-decoration: line-through;
+}
+
+pre {
+    font-family: monospace;
+}
