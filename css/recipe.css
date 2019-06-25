@@ -48,3 +48,7 @@ span.deprecated {
 pre {
     font-family: monospace;
 }
+
+blockquote {
+    background-color: #FFFFA8;
+}
