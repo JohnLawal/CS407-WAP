@@ -37,7 +37,7 @@ ul#directions {
     list-style-type: circle;
 }
 
-span.dir-point {
+span.strong-point {
     font-weight: bold;
 }
 
@@ -51,4 +51,5 @@ pre {
 
 blockquote {
     background-color: #FFFFA8;
+    font-style: italic;
 }
