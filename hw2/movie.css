@@ -39,6 +39,17 @@ body {
 
 #general-overview>dl {
     padding: 10pt;
+    padding-top: 0px;
+}
+
+#general-overview dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+#general-overview ul {
+    list-style-type: none;
+    padding: 0px;
 }
 
 #main-img {
