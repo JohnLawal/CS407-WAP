@@ -21,3 +21,10 @@ body {
     font-family: Tahoma, Verdana, sans-serif;
     text-shadow: 3px 3px #999999;
 }
+
+#content-area {
+    text-align: center;
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
