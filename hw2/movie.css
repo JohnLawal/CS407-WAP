@@ -33,9 +33,12 @@ body {
     float: right;
     background-color: #A2B964;
     width: 250px;
-    padding: 10pt;
     font-size: 8pt;
     font-family: Arial, sans-serif;
+}
+
+#general-overview>dl {
+    padding: 10pt;
 }
 
 #main-img {
