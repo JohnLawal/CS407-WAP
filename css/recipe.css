@@ -48,6 +48,10 @@ span.blockspan{
     display: block;
 }
 
+span[title="teaspoon"], span[title="tablespoons"]{
+    text-decoration: underline;
+}
+
 pre {
     font-family: monospace;
 }
