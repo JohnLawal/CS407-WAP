@@ -50,6 +50,7 @@ body {
 #general-overview ul {
     list-style-type: none;
     padding: 0px;
+    margin-top: 0px;
 }
 
 #main-img {
