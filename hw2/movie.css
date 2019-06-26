@@ -60,9 +60,21 @@ body {
 
 #critics-overview {
     border-radius: 13px 0 0 13px;
+    width: 550px;
 }
 
 #critics-top,
 #rev-img {
     border-top-left-radius: 13px;
+}
+
+#critics-top {
+    background-image: url('images/rbg.png');
+    background-repeat: repeat-x;
+}
+
+#rev-img~span {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
 }
