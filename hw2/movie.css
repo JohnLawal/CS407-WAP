@@ -85,6 +85,7 @@ body {
 
 .review {
     font-size: 8pt;
+    display: inline;
 }
 
 .review p:first-child {
