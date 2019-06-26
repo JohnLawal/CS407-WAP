@@ -87,7 +87,8 @@ body {
 
 .review {
     font-size: 8pt;
-    display: inline-block;
+    display: inline-grid;
+    ;
     width: 47%;
     margin-left: 2%;
 }
