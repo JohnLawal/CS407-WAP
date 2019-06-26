@@ -54,12 +54,15 @@ body {
     margin-top: 0px;
 }
 
-#gen-img,
-#critics-top,
-#rev-img {
-    border-radius: inherit;
+#gen-img {
+    border-top-right-radius: 13px;
 }
 
 #critics-overview {
     border-radius: 13px 0 0 13px;
+}
+
+#critics-top,
+#rev-img {
+    border-top-left-radius: 13px;
 }
