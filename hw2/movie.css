@@ -102,7 +102,7 @@ body {
     overflow: auto;
 }
 
-.review p:first-child>img {
+.review p>img {
     margin-right: 5px;
     float: left;
 }
