@@ -44,6 +44,9 @@ span.strong-point {
 span.deprecated {
     text-decoration: line-through;
 }
+span.blockspan{
+    display: block;
+}
 
 pre {
     font-family: monospace;
