@@ -58,7 +58,7 @@ body {
     border-top-right-radius: 13px;
 }
 
-#critics-overview {
+#critics-review {
     border-radius: 13px 0 0 13px;
     width: 550px;
 }
@@ -66,6 +66,10 @@ body {
 #critics-top,
 #rev-img {
     border-top-left-radius: 13px;
+}
+
+#rev-img {
+    vertical-align: bottom;
 }
 
 #critics-top {
