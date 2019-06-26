@@ -28,6 +28,7 @@ body {
     border-radius: 20px;
     margin: auto;
     overflow: auto;
+    position: relative;
 }
 
 #general-overview {
@@ -112,6 +113,14 @@ body {
     margin-bottom: 0px;
     text-align: center;
     border-bottom-left-radius: 13px;
+    position: absolute;
+    bottom: 0px;
+    width: inherit;
 }
 
-#validators {}
+#validators {
+    float: right;
+    position: sticky;
+    bottom: 0px;
+    opacity: 0.5;
+}
