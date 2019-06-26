@@ -98,3 +98,8 @@ body {
     padding: 8px;
     font-weight: bold;
 }
+
+.review p:first-child>img {
+    margin-right: 5px;
+    float: left;
+}
