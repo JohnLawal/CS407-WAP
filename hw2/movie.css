@@ -27,4 +27,13 @@ body {
     width: 800px;
     border: 4px solid gray;
     border-radius: 20px;
+    margin: auto;
+}
+
+#general-overview {
+    float: right;
+}
+
+#general-overview>img:first-child {
+    border-radius: 0 13px 0 0;
 }
