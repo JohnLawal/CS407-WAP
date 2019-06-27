@@ -13,6 +13,7 @@ body {
 
 #top-section {
     border: 5px solid red;
+    text-align: right;
 }
 
 #top-section>h2 {
@@ -25,8 +26,13 @@ body {
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
+    overflow: auto;
 }
 
 .date-part {
     border: 5px solid purple;
+}
+
+#main-container img {
+    float: right;
 }
