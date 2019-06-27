@@ -2,7 +2,11 @@ body {
     background-image: url("http://mumstudents.org/cs472/2019-07-RS/Labs/2/background.gif");
 }
 
-#container {
+#overall-container {
+    margin: 0 10%;
+}
+
+#main-container {
     border: 5px solid green;
     background-color: white;
 }
