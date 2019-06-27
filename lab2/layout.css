@@ -1,5 +1,10 @@
+body {
+    background-image: url("http://mumstudents.org/cs472/2019-07-RS/Labs/2/background.gif");
+}
+
 #container {
     border: 5px solid green;
+    background-color: white;
 }
 
 #top-section {
@@ -13,6 +18,9 @@
 #middle-section,
 #bottom-section {
     border: 5px solid blue;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .date-part {
