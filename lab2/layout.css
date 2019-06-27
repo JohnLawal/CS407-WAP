@@ -1,0 +1,20 @@
+#container {
+    border: 5px solid green;
+}
+
+#top-section {
+    border: 5px solid red;
+}
+
+#top-section>h2 {
+    border: 5px solid orange;
+}
+
+#middle-section,
+#bottom-section {
+    border: 5px solid blue;
+}
+
+.date-part {
+    border: 5px solid purple;
+}
