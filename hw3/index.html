@@ -1,0 +1,187 @@
+<!-- Author: JOHN LAWAL, ID: 610098, ASSIGNMENT: HW3 - HTML FORM , FILE: HTML STRUCTURE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML FORM -JOHN LAWAL</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="../images/myfavicon.png" rel="icon">
+</head>
+
+<body>
+    <form method="POST" action="received.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                <label>First Name</label>
+                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your first name" />
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your last name" />
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input title="Enter a valid date of Birth" required type="date" placeholder="MM/DD/YYYY" />
+            </div>
+            <div>
+                <label>Mother’s Maiden Name</label>
+                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your Mother's maiden name" />
+            </div>
+            <div>
+                <label>Social Insurance Number (Optional)</label>
+                <input title="This field is optional. Please enter a valid Social Insurance Number." type="text" placeholder="Social Insurance Number" />
+            </div>
+            <div>
+                <label>How did you learn about this card? (Optional)</label>
+                <select name="personalLearnAbout">
+                    <option value="" disabled="">Select source</option>
+                    <option value="magazine">Magazine</option>
+                    <option value="television">Television</option>
+                    <option value="comparisonSite">Credit Cards Comparison Site</option>
+                    <option value="comparisonSite">Credit Cards Comparison Site</option>
+                    <option value="onlineBanner">Online Banner Ad or Video</option>
+                    <option value="newspaper">Newspaper</option>
+                    <option value="searchEngine">Search Engine</option>
+                    <option value="familyFriend">Family or Friend</option>
+                    <option value="sponsoredEvent">CapitalOne Sponsored Event</option>
+                    <option value="outdoorAd">Outdoor or Transit Ad</option>
+                    <option value="other">Other</option>
+                    <option value="mailOffer">Mail Offer</option>
+                    <option value="facebook">Facebook Ad or Video</option>
+                    <option value="email">Email with CapitalOne Content</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+                <label>Home Address (No P.O Boxes)</label>
+                <input title="Please enter your Home Address." required type="text" placeholder="Home Address (No P.O. Boxes)" />
+            </div>
+            <div>
+                <label>Suite/Apt. # (if Applicable)</label>
+                <input type="text" placeholder="Suite/Apt. # (if Applicable)" />
+            </div>
+            <div>
+                <label>Email Address</label>
+                <input type="email" title="Please enter your Email Address." required placeholder="Email Address" />
+            </div>
+            <div>
+                <label>Primary Phone Number</label>
+                <input type="tel" title="Please enter your valid phone number." required placeholder="Phone Number" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Authorized User</legend>
+            <fieldset><span><input  type="checkbox" value="confirmation"><label for="authorized-user.confirmation"><span><span><b><span>Yes</span>!</b> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it.</span>
+                </span>
+                </label>
+                </span>
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Employment Information</legend>
+            <label>Employment Status</label>
+            <select name="employment-status">
+                <option value="" disabled="">Select status</option>
+                <option value="employed">Employed</option>
+                <option value="selfEmployed">Self-Employed</option>
+                <option value="retired">Retired</option>
+                <option value="student">Student</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Financial Information</legend>
+            <div>
+                <legend><span><span>Do you: (Optional)</span></span>
+                </legend><span><input  name="financial-live" type="radio" value="own"><label for="financial-live.own"><span><span>Own</span></span>
+                </label>
+                </span><span><input  name="financial-live" type="radio" value="rent"><label for="financial-live.rent"><span><span>Rent</span></span>
+                </label>
+                </span><span><input  name="financial-live" type="radio" value="parents"><label for="financial-live.parents"><span><span>Live with parents</span></span>
+                </label>
+                </span><span><input  name="financial-live" type="radio" value="other"><label for="financial-live.other"><span><span>Other</span></span>
+                </label>
+                </span>
+                <div><span><span><label for="financial-annual-income"><span>Your Annual Income (Before Taxes)</span><span><span>Required</span></span>
+                    </label>
+                    <div>
+                        <div><span>$</span><input autocomplete="off" autocorrect="off" pattern="[0-9]*" maxlength="7" aria-required="true" type="tel" value=""></div>
+                    </div>
+                    </span>
+                    </span>
+                </div>
+                <div><span><p  aria-label="Tell me more details about entering Other Household Income (Before Taxes)" aria-describedby="sr-tooltip-financial-other-income"><span  data-tooltip="Examples of other income could include: spousal income, rental income, spousal support or child support." aria-hidden="true"><i ></i></span>
+                    <span>Examples of other income could include: spousal income, rental income, spousal support or child support.</span>
+                    </p><span><label for="financial-other-income"><span>Other Household Income (Before Taxes)</span><span><span>Required</span></span>
+                    </label>
+                    <div>
+                        <div><span>$</span><input autocomplete="off" autocorrect="off" pattern="[0-9]*" maxlength="7" aria-required="true" type="tel" value=""></div>
+                    </div>
+                    </span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div><span><div ><fieldset ><legend ><span><span>Do you have a mortgage? </span><span><span>(Optional)</span></span>
+                    </span>
+                    </legend><span><input  name="financial-mortgage" type="radio" value="yes"><label for="financial-mortgage.yes"><span><span>Yes</span></span>
+                    </label>
+                    </span><span><input  name="financial-mortgage" type="radio" value="no"><label for="financial-mortgage.no"><span><span>No</span></span>
+                    </label>
+                    </span>
+        </fieldset>
+        </div>
+        </span>
+        </div>
+        <div><span><span><label for="financial-monthly-rent"><span>Monthly Rent/Mortgage </span><span><span>(Optional)</span></span>
+            </label>
+            <div>
+                <div><span>$</span><input autocomplete="off" autocorrect="off" pattern="[0-9]*" maxlength="7" aria-required="false" type="tel" value=""></div>
+            </div>
+            </span>
+            </span>
+        </div>
+        </div>
+        <div>
+            <div><span><span><label for="banking-info"><span>Do you have any bank accounts?</span><span><span>Required</span></span>
+                </label>
+                <div><select name="banking-info" aria-required="true"><option value="" disabled="">Select a type</option><option value="chequing-and-savings">Chequing and Savings</option><option value="chequing-only">Chequing Only</option><option value="savings-only">Savings Only</option><option value="neither">Neither</option></select></div>
+                </span>
+                </span>
+            </div>
+            <div><span><div ><fieldset ><legend ><span><span>Would you like to use your card for cash advances? (Optional)</span></span>
+                </legend><span><input  name="financial-cash-advance" type="radio" value="yes"><label for="financial-cash-advance.yes"><span><span>Yes</span></span>
+                </label>
+                </span><span><input  name="financial-cash-advance" type="radio" value="no"><label for="financial-cash-advance.no"><span><span>No</span></span>
+                </label>
+                </span>
+                </fieldset>
+            </div>
+            </span>
+        </div>
+        </div>
+        </div>
+        </fieldset>
+        <fieldset>
+            <span>By selecting “Review My Application”, you confirm that you have read, understood and agree to the above <a href="#entry-disclosures">
+                <span>Important Disclosures</span></a>.
+            </span>
+            <input type="submit" value="Review My Application" />
+        </fieldset>
+    </form>
+
+    <a href="https://validator.w3.org/check/referer">
+        <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+    </a>
+</body>
+
+</html>
