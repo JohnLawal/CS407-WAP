@@ -94,7 +94,52 @@
                 <option value="unemployed">Unemployed</option>
             </select>
         </fieldset>
-
+        <fieldset>
+            <legend>Financial Information</legend>
+            <fieldset>
+                <legend>Do you: (Optional)</legend>
+                <label><input name="fin-stat" value="own" type="radio"/> Own</label>
+                <label><input name="fin-stat" value="rent" type="radio"/> Rent</label>
+                <label><input name="fin-stat" value="live-with-parents" type="radio"/> Live with parents</label>
+                <label><input name="fin-stat" value="other" type="radio"/> Other</label>
+            </fieldset>
+            <div>
+                <label>Your Annual Income (Before Taxes)</label>
+                <input title="Please enter your annual income." required type="text" placeholder="Your Annual Income (Before Taxes)" />
+            </div>
+            <div>
+                <label>Your Annual Income (Before Taxes)</label>
+                <input title="Please enter your household income." required type="text" placeholder="Other Household Income (Before Taxes)" />
+            </div>
+            <fieldset>
+                <legend>Do you have a mortgage? (Optional)</legend>
+                <label><input name="has-mortage" value="yes" type="radio"/> Yes</label>
+                <label><input name="has-mortage" value="no" type="radio"/> No</label>
+            </fieldset>
+            <div>
+                <label>Monthly Rent/Mortgage (Optional)</label>
+                <input title="Please enter your monthly rent/mortgage." type="text" placeholder="Monthly Rent/Mortgage (Optional)" />
+            </div>
+            <div>
+                <label>Do you have any bank accounts?</label>
+                <select id="banking-info" name="banking-info">
+                    <option value="" disabled="">Select a type</option>
+                    <option value="chequing-and-savings">Chequing and Savings</option>
+                    <option value="chequing-only">Chequing Only</option>
+                    <option value="savings-only">Savings Only</option>
+                    <option value="neither">Neither</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>Would you like to use your card for cash advances? (Optional)</legend>
+                <label><input name="like-card-for-advances" value="yes" type="radio"/> Yes</label>
+                <label><input name="like-card-for-advances" value="no" type="radio"/> No</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <p>By selecting “Review My Application”, you confirm that you have read, understood and agree to the above <a href="https://applynow.capitalone.ca/?filter=all&productId=5856#entry-disclosures" target="_blank">Important Disclosures</a>.</p>
+            <input type="submit" value="Review My Application" />
+        </fieldset>
 
     </form>
 
