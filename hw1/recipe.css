@@ -3,6 +3,7 @@
 body {
     background-image: url("images/silverware.jpg");
     background-repeat: repeat;
+    background-attachment: fixed;
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, sans-serif;
@@ -16,12 +17,14 @@ h1 {
     font-size: 18pt;
     text-decoration: underline;
     letter-spacing: 0.25em;
+    width: max-content;
 }
 
 h1#title {
     text-align: center;
     font-size: 22pt;
     font-weight: bold;
+    margin: auto;
 }
 
 a {
