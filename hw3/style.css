@@ -41,3 +41,15 @@ input[type="submit"] {
     color: darkgreen;
     font-weight: bold;
 }
+
+div:first-child {
+    text-align: center;
+}
+
+div:first-child img {
+    height: 50px;
+}
+
+form {
+    margin-bottom: 8px;
+}
