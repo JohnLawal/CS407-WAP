@@ -120,10 +120,11 @@ body {
 }
 
 #validators {
-    float: right;
-    position: sticky;
-    bottom: 0px;
     opacity: 0.5;
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
 
 .publication {
