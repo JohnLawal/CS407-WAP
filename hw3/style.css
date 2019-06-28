@@ -40,6 +40,7 @@ input[type="submit"] {
     background-color: aqua;
     color: darkgreen;
     font-weight: bold;
+    cursor: pointer;
 }
 
 div:first-child {

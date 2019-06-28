@@ -19,27 +19,27 @@
             <legend>Personal Information</legend>
             <div>
                 <label>First Name</label>
-                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your first name" />
+                <input minlength="2" name="firstname" title="Name must have at least two characters" required type="text" placeholder="Please enter your first name" />
             </div>
             <div>
                 <label>Last Name</label>
-                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your last name" />
+                <input minlength="2" name="lastname" title="Name must have at least two characters" required type="text" placeholder="Please enter your last name" />
             </div>
             <div>
                 <label>Date of Birth</label>
-                <input title="Enter a valid date of Birth" required type="date" />
+                <input name="dob" title="Enter a valid date of Birth" required type="date" />
             </div>
             <div>
                 <label>Mother’s Maiden Name</label>
-                <input minlength="2" title="Name must have at least two characters" required type="text" placeholder="Please enter your Mother's maiden name" />
+                <input minlength="2" name="mum-maiden-name" title="Name must have at least two characters" required type="text" placeholder="Please enter your Mother's maiden name" />
             </div>
             <div>
-                <label>Social Insurance Number (Optional)</label>
-                <input title="This field is optional. Please enter a valid Social Insurance Number." type="text" placeholder="Social Insurance Number" />
+                <label>Social Security Number</label>
+                <input name="ssn" title="Please enter a valid Social Security Number." pattern="^\d{3}-\d{2}-\d{4}$" maxlength="11" required type="text" placeholder="AAA-GG-SSSS" />
             </div>
             <div>
                 <label>How did you learn about this card? (Optional)</label>
-                <select name="personalLearnAbout">
+                <select name="personalLearnAbout" required>
                     <option value="" disabled="">Select source</option>
                     <option value="magazine">Magazine</option>
                     <option value="television">Television</option>
@@ -62,19 +62,19 @@
             <legend>Contact Information</legend>
             <div>
                 <label>Home Address (No P.O Boxes)</label>
-                <input title="Please enter your Home Address." required type="text" placeholder="Home Address (No P.O. Boxes)" />
+                <input name="homeaddress" title="Please enter your Home Address." required type="text" placeholder="Home Address (No P.O. Boxes)" />
             </div>
             <div>
                 <label>Suite/Apt. # (if Applicable)</label>
-                <input type="text" placeholder="Suite/Apt. # (if Applicable)" />
+                <input name="suitenum" type="text" placeholder="Suite/Apt. # (if Applicable)" />
             </div>
             <div>
                 <label>Email Address</label>
-                <input type="email" title="Please enter your Email Address." required placeholder="Email Address" />
+                <input name="email" type="email" pattern="([\w.-]+@([\w-]+)\.+\w{2,})" title="Please enter your Email Address." required placeholder="Email Address" />
             </div>
             <div>
                 <label>Primary Phone Number</label>
-                <input type="tel" title="Please enter your valid phone number." required placeholder="Phone Number" />
+                <input name="phone" type="tel" pattern="^\(\d{3}\)\d{3}-\d{4}$" title="Please enter your valid phone number." required placeholder="(abc)def-ghij" />
             </div>
         </fieldset>
 
@@ -82,7 +82,7 @@
             <legend>Authorized User</legend>
             <fieldset>
                 <label>
-                    <input  type="checkbox" value="confirmation"/>
+                    <input name="authorize" type="checkbox" value="confirmation"/>
                     <span>Yes</span>!</b> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it.
                 </label>
             </fieldset>
@@ -91,7 +91,7 @@
         <fieldset>
             <legend>Employment Information</legend>
             <label>Employment Status</label>
-            <select name="employment-status">
+            <select name="employment-status" required>
                 <option value="" disabled="">Select status</option>
                 <option value="employed">Employed</option>
                 <option value="selfEmployed">Self-Employed</option>
@@ -104,31 +104,31 @@
             <legend>Financial Information</legend>
             <fieldset>
                 <legend>Do you: (Optional)</legend>
-                <label><input name="fin-stat" value="own" type="radio"/> Own</label>
+                <label><input name="fin-stat" value="own" checked type="radio"/> Own</label>
                 <label><input name="fin-stat" value="rent" type="radio"/> Rent</label>
                 <label><input name="fin-stat" value="live-with-parents" type="radio"/> Live with parents</label>
                 <label><input name="fin-stat" value="other" type="radio"/> Other</label>
             </fieldset>
             <div>
                 <label>Your Annual Income (Before Taxes)</label>
-                <input title="Please enter your annual income." required type="text" placeholder="Your Annual Income (Before Taxes)" />
+                <input name="annual-income" title="Please enter your annual income." required type="number" placeholder="eg 100000" />
             </div>
             <div>
-                <label>Your Annual Income (Before Taxes)</label>
-                <input title="Please enter your household income." required type="text" placeholder="Other Household Income (Before Taxes)" />
+                <label>Other Household Income (Before Taxes)</label>
+                <input name="household-income" title="Please enter your household income." required type="number" placeholder="eg 200000" />
             </div>
             <fieldset>
                 <legend>Do you have a mortgage? (Optional)</legend>
-                <label><input name="has-mortage" value="yes" type="radio"/> Yes</label>
+                <label><input name="has-mortage" value="yes" checked type="radio"/> Yes</label>
                 <label><input name="has-mortage" value="no" type="radio"/> No</label>
             </fieldset>
             <div>
                 <label>Monthly Rent/Mortgage (Optional)</label>
-                <input title="Please enter your monthly rent/mortgage." type="text" placeholder="Monthly Rent/Mortgage (Optional)" />
+                <input title="Please enter your monthly rent/mortgage." name="rent" type="number" placeholder="Monthly Rent/Mortgage (Optional)" />
             </div>
             <div>
                 <label>Do you have any bank accounts?</label>
-                <select id="banking-info" name="banking-info">
+                <select id="banking-info" name="banking-info" required>
                     <option value="" disabled="">Select a type</option>
                     <option value="chequing-and-savings">Chequing and Savings</option>
                     <option value="chequing-only">Chequing Only</option>
@@ -139,11 +139,13 @@
             <fieldset>
                 <legend>Would you like to use your card for cash advances? (Optional)</legend>
                 <label><input name="like-card-for-advances" value="yes" type="radio"/> Yes</label>
-                <label><input name="like-card-for-advances" value="no" type="radio"/> No</label>
+                <label><input name="like-card-for-advances" value="no" checked type="radio"/> No</label>
             </fieldset>
         </fieldset>
         <fieldset>
-            <p>By selecting “Review My Application”, you confirm that you have read, understood and agree to the above <a href="https://applynow.capitalone.ca/?filter=all&productId=5856#entry-disclosures" target="_blank">Important Disclosures</a>.</p>
+            <p>By selecting “Review My Application”, you confirm that you have read, understood and agree to the above
+                <a href="https://applynow.capitalone.ca/?filter=all&productId=5856#entry-disclosures" target="_blank">Important Disclosures</a> .
+            </p>
             <input type="submit" value="Review My Application" />
         </fieldset>
 
