@@ -17,12 +17,14 @@ h1 {
     font-size: 18pt;
     text-decoration: underline;
     letter-spacing: 0.25em;
+    width: max-content;
 }
 
 h1#title {
     text-align: center;
     font-size: 22pt;
     font-weight: bold;
+    margin: auto;
 }
 
 a {
