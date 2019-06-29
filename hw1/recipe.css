@@ -56,10 +56,6 @@ span.blockspan {
     display: block;
 }
 
-span[title] {
-    text-decoration: underline;
-}
-
 pre {
     font-family: monospace;
 }
