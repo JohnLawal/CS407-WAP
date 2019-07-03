@@ -1,0 +1,38 @@
+<!-- Author: JOHN LAWAL, ID: 610098, ASSIGNMENT: HOMEWORK 4 - Question 9 & 10 of Review 6 , FILE: HTML STRUCTURE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question 9 & 10 of Review 6</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="../images/myfavicon.png" rel="icon">
+</head>
+
+<body>
+    <div>
+        <h1>Question 9</h1>
+        <p>When we run the code as it is, we get:</p>
+        <img src="first_run.PNG" alt="when you first run" />
+        <p>The first output is <code>1</code> because that is the initialized value for <code>x</code> in the global scope.</p>
+        <p>The reason why we get <code>undefined</code> for the second output is because in the function <code>foo()</code> , we declared <code>x</code> again in the <code>if</code> block. Therefore, <code>var x</code> will be hoisted with <code>undefined</code>            before our output is executed.
+        </p>
+        <p>The third output gives us <code>12</code> because we have a call to <code>foo1()</code> inside <code>foo()</code>. We declared <code>x</code> in <code>foo1()</code> so we once again hoist it to <code>undefined</code> before our <code>if</code>            block. Hence
+            <code>z = 4</code> will be executed. Eventually, our output will be 5 +3+4 which is 12.
+        </p>
+        <p>The <code>if</code> block will execute <code>x= 3</code> so our fourth output is <code>3</code></p>
+        <p><code>y</code> is still <code>2</code> and <code>z</code> is still <code>4</code> hence our fifth and sixth outputs</p>
+        <p>For the last output, we are retrieving the value of <code>x</code> in the global scope which is still <code>1</code></p>
+
+    </div>
+
+
+
+    <a href="https://validator.w3.org/check/referer">
+        <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+    </a>
+</body>
+
+</html>

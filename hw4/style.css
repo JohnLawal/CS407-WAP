@@ -1,0 +1,14 @@
+body {
+    padding: 14px;
+    background-color: darkgoldenrod;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+code {
+    background-color: black;
+    padding: 4px;
+}
