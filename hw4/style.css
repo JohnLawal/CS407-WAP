@@ -3,12 +3,14 @@ body {
     background-color: darkgoldenrod;
 }
 
-p {
+p,
+h1 {
     color: white;
     font-weight: bold;
 }
 
 code {
-    background-color: black;
+    background-color: #242424;
     padding: 4px;
+    color: #cacaca;
 }

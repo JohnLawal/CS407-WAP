@@ -12,7 +12,7 @@
     <div>
         <h1>Question 9</h1>
         <p>When we run the code as it is, we get:</p>
-        <img src="first_run.PNG" alt="when you first run" />
+        <img src="first_run.PNG" alt="when you first run question 9" />
         <p>The first output is <code>1</code> because that is the initialized value for <code>x</code> in the global scope.</p>
         <p>The reason why we get <code>undefined</code> for the second output is because in the function <code>foo()</code> , we declared <code>x</code> again in the <code>if</code> block. Therefore, <code>var x</code> will be hoisted with <code>undefined</code>            before our output is executed.
         </p>
@@ -22,9 +22,22 @@
         <p>The <code>if</code> block will execute <code>x= 3</code> so our fourth output is <code>3</code></p>
         <p><code>y</code> is still <code>2</code> and <code>z</code> is still <code>4</code> hence our fifth and sixth outputs</p>
         <p>For the last output, we are retrieving the value of <code>x</code> in the global scope which is still <code>1</code></p>
-
     </div>
 
+    <div>
+        <h1>Question 10</h1>
+        <p>When we run the code as it is, we get:</p>
+        <img src="first_run2.PNG" alt="when you first run question 10" />
+        <p>The first output is <code>2</code> because that is the initialized value for <code>y</code> in the global scope.</p>
+        <p>The reason why we get <code>undefined</code> for the second output is because in the function <code>foo()</code> we called <code>foo1()</code> and we declared <code>x</code> again in the <code>foo1()</code> block. Therefore, <code>var x</code>            will be hoisted with <code>undefined</code> before our output is executed.
+        </p>
+        <p>The third output gives us <code>2</code> because that is the initialized value for <code>y</code> in the global scope.</p>
+        <p><code>z = 4</code> was called before we entered the <code>foo1()</code> block hence the fourth output is <code>4</code></p>
+        <p><code>x = 3</code> was called before the next output hence the fifth output is <code>3</code></p>
+        <p><code>y</code> is still <code>2</code> because it references the global scope.</p>
+        <p><code>x</code> is still <code>1</code> because it references the global scope.</p>
+        <p><code>z</code> is still <code>3</code> because it references the global scope.</p>
+    </div>
 
 
     <a href="https://validator.w3.org/check/referer">
