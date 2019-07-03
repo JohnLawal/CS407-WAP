@@ -37,14 +37,12 @@ const AccountModule = (function() {
 })();
 
 function createAccount() {
-
-    // let textArea = document.getElementById("created_account");
-    // textArea.value = "Hey";
-
     var accname = document.getElementById("acc_name").value;
     var deposit = document.getElementById("deposit").value;
 
     var account = AccountModule.createAccount(accname, deposit);
+
+
     accountInfoList.push(account);
 
 
