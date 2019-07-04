@@ -23,6 +23,14 @@
         <h1>Question 4</h1>
         <p>When we run the code as it is, we get:</p>
         <img src="q4.JPG" alt="when you first run question 4" />
+        <p>The reason why we get <code>undefined</code> for the first output is that we are trying to log <code>this</code> while in strict mode but the current function is not 'owned' by an object.
+        </p>
+        <p>The next output of <code>5 7</code> comes from the input to the IIFE which was passed on execution.</p>
+        <p>The next output of <code>2</code> comes from the execution of <code>obj.foo()</code>. The <code>this.x</code> mentioned in the method will print out the value of
+            <code>x</code> for the enclosing object.
+        </p>
+        <p>The error in the last output occurs because we attempt to use the
+            <code>arrow function</code> to reference <code>this</code> but by definition, arrow functions can not have a reference to <code>this</code> in strict mode. Hence, <code>this</code> will be <code>undefined</code>.</p>
     </div>
 
 
