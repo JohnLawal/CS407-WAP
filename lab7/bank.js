@@ -1,3 +1,5 @@
+"use strict";
+
 window.onload = function() {
     let accountInfoList = [];
 
@@ -6,13 +8,12 @@ window.onload = function() {
             return {
                 "Account Name": account_name,
                 "Balance": deposit * 1
-            }
+            };
         };
         return {
-            createAccount: function(accname, deposit) { return createAccount(accname, deposit) }
+            createAccount: function(accname, deposit) { return createAccount(accname, deposit); }
         };
     })();
-
 
     document.getElementById("btnSubmit").onclick = function() {
         var accname = document.getElementById("acc_name").value.trim(); //value from account name text box
@@ -26,7 +27,7 @@ window.onload = function() {
                 if (savedAccount["Account Name"] === account["Account Name"]) {
                     var currIndex = accountInfoList.indexOf(savedAccount);
 
-                    savedAccount["Balance"] += account["Balance"];
+                    savedAccount.Balance += account.Balance;
                     accountInfoList[currIndex] = savedAccount; //update the balance of the account
                     flag = true;
                 }
@@ -40,8 +41,6 @@ window.onload = function() {
         } else {
             alert("Please provide the account name and deposit amount");
         }
-
-
     };
 
     function populateTextArea() {
@@ -55,4 +54,4 @@ window.onload = function() {
             textArea.value += "\n";
         }
     }
-}
+};
