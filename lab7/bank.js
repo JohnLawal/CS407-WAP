@@ -1,62 +1,58 @@
-// window.onload = function() {
-// let bankForm = document.getElementsByTagName("form")[0];
-// bankForm.onsubmit = function() {
-//     let textArea = document.getElementsByTagName("textarea")[0];
-//     textArea.value = "Hey";
-// }
-// };
+window.onload = function() {
+    let accountInfoList = [];
 
-
-
-
-let accountInfoList = [];
-
-// const AccountModule = (function() {
-//     const accounts_array = [];
-//     const createAccount = function(account_name, deposit) {
-//         accounts_array.push({ accname: account_name, depo: deposit });
-//     };
-//     return {
-//         createAccount: function(accname, deposit) { createAccount(accname, deposit) },
-//         getAccounts: function() { return accounts_array }
-//     };
-// })();
-
-
-
-const AccountModule = (function() {
-    const createAccount = function(account_name, deposit) {
+    const AccountModule = (function() {
+        const createAccount = function(account_name, deposit) {
+            return {
+                "Account Name": account_name,
+                "Balance": deposit * 1
+            }
+        };
         return {
-            "Account Name": account_name,
-            "Balance": deposit
+            createAccount: function(accname, deposit) { return createAccount(accname, deposit) }
+        };
+    })();
+
+
+    document.getElementById("btnSubmit").onclick = function() {
+        var accname = document.getElementById("acc_name").value.trim(); //value from account name text box
+        var deposit = document.getElementById("deposit").value.trim(); //value from deposit text box
+
+        if (accname && deposit) {
+            var account = AccountModule.createAccount(accname, deposit); // a new account object
+
+            let flag = false;
+            for (const savedAccount of accountInfoList) {
+                if (savedAccount["Account Name"] === account["Account Name"]) {
+                    var currIndex = accountInfoList.indexOf(savedAccount);
+
+                    savedAccount["Balance"] += account["Balance"];
+                    accountInfoList[currIndex] = savedAccount; //update the balance of the account
+                    flag = true;
+                }
+            }
+
+            if (!flag) {
+                accountInfoList.push(account); // add a new account object to the list of accounts
+            }
+
+            populateTextArea(); // update the text area for created accounts
+        } else {
+            alert("Please provide the account name and deposit amount");
         }
+
+
     };
-    return {
-        createAccount: function(accname, deposit) { return createAccount(accname, deposit) }
-    };
-})();
 
-function createAccount() {
-    var accname = document.getElementById("acc_name").value;
-    var deposit = document.getElementById("deposit").value;
+    function populateTextArea() {
+        var textArea = document.getElementById("created_account");
 
-    var account = AccountModule.createAccount(accname, deposit);
-
-
-    accountInfoList.push(account);
-
-
-    populateTextArea();
-}
-
-function populateTextArea() {
-    var textArea = document.getElementById("created_account");
-
-    textArea.value = "";
-    for (const account of accountInfoList) {
-        for (const key in account) {
-            textArea.value += `${key}: ${account[key]}; `;
+        textArea.value = "";
+        for (const account of accountInfoList) {
+            for (const key in account) {
+                textArea.value += `${key}: ${account[key]}; `;
+            }
+            textArea.value += "\n";
         }
-        textArea.value += "\n";
     }
 }

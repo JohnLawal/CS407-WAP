@@ -10,24 +10,19 @@
 </head>
 
 <body>
-    <form onsubmit="createAccount(); return false;">
-        <fieldset>
-            <legend>Create Account</legend>
-            <div>
-                <label>Account Name: </label>
-                <input type="text" id="acc_name" />
-            </div>
-            <div>
-                <label>Deposit: </label>
-                <input type="number" min="100" id="deposit" required />
-            </div>
-            <input type="submit" value="Create New Account" />
-            <textarea rows="10" cols="100" id="created_account"></textarea>
-        </fieldset>
-    </form>
-
-
-
+    <fieldset>
+        <legend>Create Account</legend>
+        <div>
+            <label>Account Name: </label>
+            <input type="text" id="acc_name" required />
+        </div>
+        <div>
+            <label>Deposit: </label>
+            <input type="number" min="100" id="deposit" required />
+        </div>
+        <button type="submit" id="btnSubmit" value="Create New Account">Create New Account</button>
+        <textarea rows="10" cols="100" id="created_account" readonly></textarea>
+    </fieldset>
 
     <a href="https://validator.w3.org/check/referer">
         <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator" />

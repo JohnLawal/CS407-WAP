@@ -35,12 +35,14 @@ select {
     padding: 8px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button {
     border-radius: 8px;
     background-color: aqua;
     color: darkgreen;
     font-weight: bold;
     cursor: pointer;
+    padding: 8px;
 }
 
 div:first-child {
