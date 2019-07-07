@@ -32,7 +32,8 @@
         pieces.mouseover(function() {
             const piece = $(this);
             if (isMoveavablePiece(piece)) piece.addClass("movablepiece");
-            else piece.removeClass("movablepiece");
+        }).mouseout(function() {
+            $(this).removeClass("movablepiece");
         });
 
         //shuffle pieces randomly
