@@ -2,8 +2,8 @@
 (function() { //Trick: X == Column == Left/100, Y == Row == Top/100
     const NUM_OF_ROWS_COLS = 4; //number of rows and columns
     const PIECE_SIZE = 100; //width and height of each div
-    var emptySquareRow = 3; //default row of empty div (0 based)
-    var emptySquareCol = 3; //default col of empty div (0 based)
+    let emptySquareRow = 3; //default row of empty div (0 based)
+    let emptySquareCol = 3; //default col of empty div (0 based)
 
     $(function() {
         let pieces = $("#puzzlearea div");
@@ -25,27 +25,26 @@
 
         //swap with empty if possible upon click
         pieces.click(function() {
-            var piece = $(this);
-            if (isMoveavablePiece(piece)) swapWithEmpty(piece);
+            if (isMoveavablePiece($(this))) swapWithEmpty($(this));
         });
 
         //hover effect for moveable pieces
         pieces.mouseover(function() {
-            var piece = $(this);
+            const piece = $(this);
             if (isMoveavablePiece(piece)) piece.addClass("movablepiece");
             else piece.removeClass("movablepiece");
         });
 
         //shuffle pieces randomly
         $("#shufflebutton").click(function() {
-            var numOfTimes = Math.pow(NUM_OF_ROWS_COLS, 3);
+            const numOfTimes = Math.pow(NUM_OF_ROWS_COLS, 3);
             for (let a = 0; a < numOfTimes; a++) {
-                var moveablePieces = $("#puzzlearea div").filter(function(index) {
+                const moveablePieces = $("#puzzlearea div").filter(function(index) {
                     return isMoveavablePiece($(this));
                 });
 
-                var randomIndex = Math.floor(Math.random() * moveablePieces.length);
-                var piece = moveablePieces[randomIndex];
+                const randomIndex = Math.floor(Math.random() * moveablePieces.length);
+                const piece = moveablePieces[randomIndex];
                 swapWithEmpty($(piece));
             }
         });
@@ -53,15 +52,15 @@
 
     //check if piece can move
     function isMoveavablePiece(piece) {
-        var rowDiff = Math.abs(parseInt(piece.attr("row")) - emptySquareRow);
-        var colDiff = Math.abs(parseInt(piece.attr("col")) - emptySquareCol);
+        const rowDiff = Math.abs(parseInt(piece.attr("row")) - emptySquareRow);
+        const colDiff = Math.abs(parseInt(piece.attr("col")) - emptySquareCol);
         return ((rowDiff + colDiff) === 1);
     }
 
     //perform swap
     function swapWithEmpty(piece) {
-        var currentPieceRow = parseInt(piece.attr("row"));
-        var currentPieceCol = parseInt(piece.attr("col"));
+        const currentPieceRow = parseInt(piece.attr("row"));
+        const currentPieceCol = parseInt(piece.attr("col"));
 
         piece.attr("row", emptySquareRow).attr("col", emptySquareCol).css("left", (emptySquareCol * PIECE_SIZE) + "px")
             .css("top", (emptySquareRow * PIECE_SIZE) + "px").attr("id", "square_" + emptySquareRow + "_" + emptySquareCol);
@@ -72,8 +71,8 @@
     }
     //check if user has won
     function checkGameStatus() {
-        var expectedOutCome = [];
-        var currentResult = [];
+        let expectedOutCome = [];
+        let currentResult = [];
 
         $("#puzzlearea div").each(function(index, piece) {
             let i = index % NUM_OF_ROWS_COLS;
@@ -82,7 +81,7 @@
             currentResult.push({ row: parseInt($(piece).attr("row")), col: parseInt($(piece).attr("col")) });
         });
 
-        var hasWon = expectedOutCome.every((element, index) =>
+        const hasWon = expectedOutCome.every((element, index) =>
             ((element.row === currentResult[index].row) && (element.col === currentResult[index].col)));
         if (hasWon) $("body").addClass("won");
         else $("body").removeClass("won");
