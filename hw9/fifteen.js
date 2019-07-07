@@ -7,8 +7,7 @@
 
     $(function() {
         let pieces = $("#puzzlearea div");
-        // initialize each piece
-        pieces.each(function(index, element) {
+        pieces.each(function(index, element) { // initialize each piece
             let piece = $(element);
             // calculate x and y for this piece
             let x = ((index % NUM_OF_ROWS_COLS) * PIECE_SIZE);
@@ -24,7 +23,7 @@
             piece.attr("id", "square_" + piece.row + "_" + piece.col).attr("row", piece.row).attr("col", piece.col);
         });
 
-        //swap with empty if possible
+        //swap with empty if possible upon click
         pieces.click(function() {
             var piece = $(this);
             if (isMoveavablePiece(piece)) swapWithEmpty(piece);
@@ -83,7 +82,6 @@
         let pieces = $("#puzzlearea div");
         var expectedOutCome = [];
         var currentResult = [];
-
         var count = 0;
         for (let i = 0; i < NUM_OF_ROWS_COLS; i++) {
             for (let j = 0; j < NUM_OF_ROWS_COLS; j++) {
