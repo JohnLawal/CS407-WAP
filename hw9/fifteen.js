@@ -72,22 +72,17 @@
     }
     //check if user has won
     function checkGameStatus() {
-        let pieces = $("#puzzlearea div");
         var expectedOutCome = [];
         var currentResult = [];
-        var count = 0;
-        for (let i = 0; i < NUM_OF_ROWS_COLS; i++) {
-            for (let j = 0; j < NUM_OF_ROWS_COLS; j++) {
-                if (!(i === NUM_OF_ROWS_COLS - 1 && j === NUM_OF_ROWS_COLS - 1)) {
-                    expectedOutCome.push({ row: i, col: j });
-                    var piece = $(pieces[count]);
-                    currentResult.push({ row: parseInt(piece.attr("row")), col: parseInt(piece.attr("col")) });
-                }
-                count++;
-            }
-        }
 
-        var hasWon = (expectedOutCome.length === currentResult.length) && expectedOutCome.every((element, index) =>
+        $("#puzzlearea div").each(function(index, piece) {
+            let i = index % NUM_OF_ROWS_COLS;
+            let j = Math.floor(index / NUM_OF_ROWS_COLS);
+            expectedOutCome.push({ row: j, col: i });
+            currentResult.push({ row: parseInt($(piece).attr("row")), col: parseInt($(piece).attr("col")) });
+        });
+
+        var hasWon = expectedOutCome.every((element, index) =>
             ((element.row === currentResult[index].row) && (element.col === currentResult[index].col)));
         if (hasWon) $("body").addClass("won");
         else $("body").removeClass("won");
