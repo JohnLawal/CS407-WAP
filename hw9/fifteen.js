@@ -73,10 +73,11 @@
         return isMoveavableIndex(parseInt(piece.attr("row")), parseInt(piece.attr("col")));
     }
 
+    //check if coordinate is is next to the empty square
     function isMoveavableIndex(row, col) {
         var rowDiff = Math.abs(row - emptySquareRow);
         var colDiff = Math.abs(col - emptySquareCol);
-        return ((rowDiff === 0 && colDiff === 1) || (rowDiff === 1 && colDiff === 0));
+        return ((rowDiff + colDiff) === 1);
     }
 
     //perform swap
@@ -114,22 +115,11 @@
             }
         }
 
-        if (arraysEqual(expectedOutCome, currentResult))
+        var hasWon = (expectedOutCome.length === currentResult.length) && expectedOutCome.every((element, index) =>
+            ((element.row === currentResult[index].row) && (element.col === currentResult[index].col)));
+        if (hasWon)
             $("body").addClass("won");
         else
             $("body").removeClass("won");
     }
-
-    function arraysEqual(expectedOutCome, currentResult) {
-        if (expectedOutCome.length !== currentResult.length)
-            return false;
-        for (var i = expectedOutCome.length; i--;) {
-            if ((expectedOutCome[i].row !== currentResult[i].row) || (expectedOutCome[i].col !== currentResult[i].col))
-                return false;
-        }
-
-        return true;
-    }
-
-
 })();
