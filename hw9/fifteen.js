@@ -40,28 +40,21 @@
         $("#shufflebutton").click(function() {
             var numOfTimes = Math.pow(NUM_OF_ROWS_COLS, 3);
             for (let a = 0; a < numOfTimes; a++) {
-                var moveablePieces = [];
-                for (let i = 0; i < NUM_OF_ROWS_COLS; i++) {
-                    for (let j = 0; j < NUM_OF_ROWS_COLS; j++) {
-                        if (isMoveavableIndex(i, j)) moveablePieces.push({ row: i, col: j });
-                    }
-                }
+                var moveablePieces = $("#puzzlearea div").filter(function(index) {
+                    return isMoveavablePiece($(this));
+                });
+
                 var randomIndex = Math.floor(Math.random() * moveablePieces.length);
-                var piece = $("#square_" + moveablePieces[randomIndex].row + "_" + moveablePieces[randomIndex].col);
-                swapWithEmpty(piece);
+                var piece = moveablePieces[randomIndex];
+                swapWithEmpty($(piece));
             }
         });
     });
 
     //check if piece can move
     function isMoveavablePiece(piece) {
-        return isMoveavableIndex(parseInt(piece.attr("row")), parseInt(piece.attr("col")));
-    }
-
-    //check if coordinate is is next to the empty square
-    function isMoveavableIndex(row, col) {
-        var rowDiff = Math.abs(row - emptySquareRow);
-        var colDiff = Math.abs(col - emptySquareCol);
+        var rowDiff = Math.abs(parseInt(piece.attr("row")) - emptySquareRow);
+        var colDiff = Math.abs(parseInt(piece.attr("col")) - emptySquareCol);
         return ((rowDiff + colDiff) === 1);
     }
 
