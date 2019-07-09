@@ -4,9 +4,101 @@
 
 <head>
     <title></title>
-    <link href="styleme.css" rel="stylesheet" />
-    <link href="../images/myfavicon.png" rel="icon">
+    <!-- <link href="styleme.css" rel="stylesheet" /> -->
+    <link href="images/myfavicon.png" rel="icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function() {
+
+            // console.log('start all');
+            // a();
+            // b();
+            // console.log('end all');
+
+            // function a() {
+            //     console.log('start A');
+
+            //     setTimeout(function() {
+            //         console.log('callback A');
+            //     }, 0);
+            //     console.log('end A');
+            // }
+
+            // function b() {
+            //     console.log('start B');
+
+            //     setTimeout(function() {
+            //         console.log('callback B');
+            //     }, 0);
+            //     console.log('end B');
+            // }
+
+
+            // $("div, p").click(function() {
+            //     // Do something
+            //     console.log("handler 1: " + this.nodeName);
+            // });
+            // $("div, p").click(function(evt) {
+            //     // Do something else
+            //     console.log("handler 2: " + this.nodeName);
+            //     // evt.preventDefault();
+            //     //evt.stopPropagation();
+            //     // evt.stopImmediatePropagation();
+            //     // return false;
+            //     console.log("handler 2: " + this.nodeName + " after event method");
+            // });
+            // $("div, p").click(function() {
+            //     // THIS NEVER FIRES
+            //     console.log("handler 3: " + this.nodeName);
+
+            // });
+            // $("div, p").click(function() {
+            //     // THIS NEVER FIRES
+            //     console.log("handler 4: " + this.nodeName);
+            // });
+
+            // let promise1 = new Promise(function(resolve, reject) {
+            //     // let r = Math.ceil(Math.random() * 10);
+            //     // if (r % 2 === 0) {
+            //     //     setTimeout(function() {
+            //     //         resolve('even');
+            //     //     }, 300);
+            //     // } else {
+            //     //     setTimeout(function() {
+            //     //         reject('odd');
+            //     //     }, 300);
+            //     // }
+            //     var x = 15;
+            //     if (x % 2 === 0) {
+            //         resolve('good');
+            //     } else {
+            //         reject('bad');
+            //     }
+            // });
+            // promise1
+            //     .then(function(value) {
+            //         console.log("Success: " + value);
+            //     })
+            //     .catch(function(err) {
+            //         console.log("Error: " + err);
+            //     });
+            // console.log(promise1);
+
+            // setTimeout(donkey1(), 1000);
+            // // setTimeout(donkey2, 1000);
+
+            // function donkey1() {
+            //     setTimeout(function() {
+            //         console.log("Hee Haw!!");
+            //     }, 1000);
+            // }
+
+            // function donkey2() {
+            //     console.log("Hee Haw!!");
+            // }
+        });
+    </script>
 
 </head>
 
@@ -15,6 +107,10 @@
     <p> Another Paragraph</p>
     <p> Yet Another Paragraph</p>
     <h1> A H1</h1>
+    <div>
+        <p> Events are <em>crazy</em>! </p>
+    </div>
 </body>
+
 
 </html>
