@@ -1,0 +1,295 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2018, 3:26:20 PM
+    Author     : JOHN LAWAL IMHONIKHE jlawal.com
+*/
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-pricing ul li i {
+    top: 0px;
+    position: relative;
+    padding: 0px 4px;
+}
+.card-pricing ul li i:hover{
+    cursor:pointer;
+}
+#cart i.glyphicon, #cart fa {
+    padding: 0 10px;
+}
+#cart ul.checkout-items {
+    padding: 0;
+}
+#delivery {
+    height: 0px;
+    overflow: hidden;
+}
+.card .card-image {
+    height: auto;
+}			
+.home-product .card .card-content {
+    padding: 15px 30px;
+    background: #D93600;
+}
+.home-product .card-title {
+    color: #ffffff;
+}
+@media (max-width: 500px){
+    .navbar-brand img {
+        width: 60px !important;
+    }
+}
+
+div#flashMessage {
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: #c5390a;
+    padding: 10px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+#cart ul li {
+    list-style-type: none;
+}
+
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+#cart ul li {
+    list-style-type: none;
+}
+footer.footer{
+    background-color: #2A2D2D;
+    color: #FFF;
+}
+.link-me{
+    color: #FFD;
+}
+.social_btn{
+    background-color: #000;
+    width: 30px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 20px;
+    color: #FFF;
+}
+div#announcement {
+    position: relative;
+    z-index: 99;
+    top: 70px;
+    background: #ff5c26;
+    opacity: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+}
+.card-pricing ul {
+    list-style: none;
+    padding: 0;
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1300px;
+    }
+    li span.chk-itm {
+        width: 65px!important;
+    }
+}
+
+li span.chk-itm {
+    display: inline-block;
+    text-align: center;
+}
+.offices-menu {
+    background: #555555;
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 20px 0;
+}
+.offices-menu h4{
+    color:#FFF;
+    margin-top:10px;
+    margin-bottom:5px
+}
+@media (min-width:992px){
+    .offices-menu h4{
+        display:inline-block;
+        margin:10px 6px 10px 0
+    }
+}
+.offices-menu a.btn,.offices-menu a.comment-form input[type="submit"]{
+    background:rgba(255,255,255,0.1);
+    border-color:transparent;
+    color:#DDDDDD;
+    margin:10px 6px 10px 0;
+    font-size:13px;
+    padding-left:38px;
+    position:relative
+}
+@media (max-width:767px){
+    .offices-menu a.btn,.offices-menu a.comment-form input[type="submit"]{
+        display:block;
+        margin:10px 0;
+        text-align:left
+    }
+}
+.offices-menu a.btn:hover,.offices-menu a.btn:focus,.offices-menu a.comment-form input[type="submit"]:hover,.offices-menu a.comment-form input[type="submit"]:focus{
+    background:rgba(255,255,255,0.05)
+}
+.offices-menu a.btn img,.offices-menu a.comment-form input[type="submit"] img{
+    width:24px;
+    position:absolute;
+    top:3px;
+    left:7px
+}
+.content-info {
+    display: block;
+    background: #777777;
+    color: #DDDDDD;
+    font-size: 12px;
+    letter-spacing: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.page-header.header-small {
+    min-height: 65vh;
+}
+
+.section {
+    padding: 30px 0;
+}
+.mybtn{
+    background: #f3594e;
+    border: 0;
+    color: white;
+    border-radius: 50%;
+}
+.features-1 h2.title, .features-1 .description, .features-1 h4.info-title, .features-1 p, .features-1 .icon {
+    color: white;
+}
+
+.nbs-flexisel-inner {
+    overflow: initial;
+    width: 100%;
+}
+#flexiselDemo1 button.dropdown-toggle {
+    height: 37px;
+}
+
+.nbs-flexisel-item {
+    margin: 0 10px;
+}
+
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+    top: -60%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 1;
+    color: #4caf50;
+}
+.material-icons {
+    font-size: 35px;
+}
+.dropdown-menu li a:active, .dropdown-menu li a:focus, .dropdown-menu li a:hover {
+    background-color: #4caf50;
+    color: #FFF;
+}
+[class*=features-], [class*=team-], [class*=projects-], [class*=pricing-], [class*=testimonials-], [class*=contactus-] {
+    padding: 20px 0;
+}
+.info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0px 0 30px;
+}
+#merchant_logo .card.card-product {
+    border: 1px solid #d2d2d2;
+}
+
+.card-product .card-title, .card-product .category {
+    text-align: left;
+    font-size: 13px;
+}
+.back-background .card-content, .card-background .card-content {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: left;
+    top: 100px;
+    left: 10px;
+}
+
+
+
+div#categories {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.back-background:after,.card-background:after{
+
+}
+.text.text-warning{
+    color:#f3d5a9;
+}
+.footer-head{
+    color:#87C735;
+}
+
+@media (min-width: 768px){
+    #homesearch{width: 450px; color:#000;display:inline-block;}
+}
+
+@media (max-width: 767px){
+    #homesearch {
+        width: 240px;
+        color:#000;
+        display:inline-block;
+    }
+    .navbar-form .form-group {
+        margin-bottom: 5px;
+        width: 250px;
+        display: inline-block;
+    }
+
+    #merchant_logo .card.card-product {
+        width: 130px;
+        display: block;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+
+}

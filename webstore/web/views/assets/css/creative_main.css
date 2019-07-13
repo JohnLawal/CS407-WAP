@@ -1,0 +1,25 @@
+.navbar.navbar-primary {
+    background-color: #fff;
+    color: #28aae2;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 12px -5px rgba(156,39,176,.46);
+}
+.btn.btn-primary, .btn.btn-primary.active, .btn.btn-primary.active:focus, .btn.btn-primary.active:hover, .btn.btn-primary:active, .btn.btn-primary:active:focus, .btn.btn-primary:active:hover, .btn.btn-primary:focus, .btn.btn-primary:hover, .navbar .navbar-nav>li>a.btn.btn-primary, .navbar .navbar-nav>li>a.btn.btn-primary.active, .navbar .navbar-nav>li>a.btn.btn-primary.active:focus, .navbar .navbar-nav>li>a.btn.btn-primary.active:hover, .navbar .navbar-nav>li>a.btn.btn-primary:active, .navbar .navbar-nav>li>a.btn.btn-primary:active:focus, .navbar .navbar-nav>li>a.btn.btn-primary:active:hover, .navbar .navbar-nav>li>a.btn.btn-primary:focus, .navbar .navbar-nav>li>a.btn.btn-primary:hover, .open>.btn.btn-primary.dropdown-toggle, .open>.btn.btn-primary.dropdown-toggle:focus, .open>.btn.btn-primary.dropdown-toggle:hover, .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle, .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle:focus, .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle:hover{
+    background-color: #d93600;
+    color: #FFF;
+}
+
+.form-control, .form-group .form-control {
+    border: 0;
+	background-image: linear-gradient(#f56c3e,#d93600),linear-gradient(#D2D2D2,#D2D2D2);
+}
+
+.navbar .navbar-brand {
+    position: relative;
+    height: 50px;
+    line-height: 30px;
+    color: inherit;
+    padding: 0px 15px;
+}
+.card .content-primary, .card .header-primary {
+    background: linear-gradient(60deg,#a53f1c,#d93600);
+}
