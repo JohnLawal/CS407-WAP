@@ -1,26 +1,26 @@
 package models;
 
 public class Product {
-    private int id;
-    private String name;
-    private double price;
+    private int product_id;
+    private String product_name;
+    private double selling_price;
 
-    public Product( int id, String name, double price) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
+    public Product( int product_id, String product_name, double selling_price) {
+        this.product_id = product_id;
+        this.product_name = product_name;
+        this.selling_price = selling_price;
     }
 
     public int getId() {
-        return id;
+        return product_id;
     }
 
     public String getName() {
-        return name;
+        return product_name;
     }
 
     public double getPrice() {
-        return price;
+        return selling_price;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Product {
         if (product == null) return false;
         if(! (product instanceof Product)) return false;
         Product nProduct = (Product) product;
-        return nProduct.getId() == this.id;
+        return nProduct.getId() == this.product_id;
     }
 
 }

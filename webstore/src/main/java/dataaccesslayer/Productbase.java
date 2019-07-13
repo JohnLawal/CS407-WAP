@@ -1,5 +1,7 @@
-package models;
+package dataaccesslayer;
 
+
+import models.Product;
 
 import java.util.ArrayList;
 
@@ -9,12 +11,16 @@ public class Productbase {
 
     public static boolean productExists(Product product) {
         if (product == null) return false;
-        setDB();
+        if(db.size() == 0){
+            setDB();
+        }
         return db.contains(product);
     }
 
     public static ArrayList<Product> getDb() {
-        setDB();
+        if(db.size() == 0){
+            setDB();
+        }
         return db;
     }
 

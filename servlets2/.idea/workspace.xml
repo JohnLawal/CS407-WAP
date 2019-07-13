@@ -7,138 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9549d228-a313-434c-b133-412f958237d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../webstore/.idea/artifacts/webstore_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/controllers/filters/MainFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/controllers/servlets/WelcomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/Productbase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/Userbase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/css/creative_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/css/material-kit.min3f71.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/images/favicontext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/js/material-kit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/js/material.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/images/filler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/images/insert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedHeader/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/KeyTable/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Scroller/images/loading-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/collection_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/copy_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/csv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/csv_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/pdf_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/print_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/xls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/images/xls_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/datatables/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/preloader/jquery.preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/preloader/jquery.preloader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/preloader/preloader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/plugins/preloader/preloader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/modals.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/productlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webstore/src/main/java/controllers/servlets/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webstore/web/views/assets/js/sign_in.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/filters/MainFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/filters/MainFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Productbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Userbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/views/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/views/assets/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/views/pages/templates/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/out/artifacts/webstore_war_exploded/views/pages/templates/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/src/main/java/controllers/filters/MainFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/src/main/java/controllers/filters/MainFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/src/main/java/controllers/servlets/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/src/main/java/controllers/servlets/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/src/main/java/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/src/main/java/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/src/main/java/models/Productbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/src/main/java/dataaccesslayer/Productbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/src/main/java/models/Userbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/src/main/java/dataaccesslayer/Userbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/target/classes/controllers/filters/MainFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/target/classes/controllers/filters/MainFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/target/classes/controllers/servlets/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/target/classes/controllers/servlets/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/target/classes/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/target/classes/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/target/classes/models/Productbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/target/classes/models/Userbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/web/views/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/web/views/assets/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/web/views/pages/templates/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webstore/web/views/pages/templates/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../webstore/web/views/pages/templates/head.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,17 +47,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -205,8 +89,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="1176" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -215,8 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +136,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,17 +253,19 @@
       <option name="presentableId" value="Default" />
       <updated>1562814230427</updated>
       <workItem from="1562814237813" duration="5303000" />
-      <workItem from="1562994712002" duration="645000" />
+      <workItem from="1562994712002" duration="1975000" />
+      <workItem from="1563046121135" duration="192000" />
+      <workItem from="1563050143406" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16868000" />
+    <option name="totallyTimeSpent" value="18426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="0" width="683" height="768" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7553444" visible="true" weight="0.22012103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7553444" visible="true" weight="0.4141252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,7 +276,7 @@
       <window_info id="Web" order="8" sideWeight="0.24465558" side_tool="true" weight="0.3112583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.8125984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33700788" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33640552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>

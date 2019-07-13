@@ -69,7 +69,7 @@
                         <div class="modal-body text-center">
                             <form id="formx" action="#" method="POST">
                                 <div class="card-content content-rose">
-                                    <a href="#" class="btn btn-default btn-raised btn-round">
+                                    <a href="<c:url value='/logout'/> " class="btn btn-default btn-raised btn-round">
                                         Log Out
                                     </a>
                                 </div>

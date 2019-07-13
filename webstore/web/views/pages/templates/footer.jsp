@@ -91,7 +91,7 @@
 <script type='text/javascript' src="<c:url value='./views/assets/plugins/preloader/jquery.preloader.min.js' />"></script>
 <script type='text/javascript' src="<c:url value='./views/assets/js/cart.js' />"></script>
 
-<%--<c:out value="${pageScript}"/>--%>
+${pageScript}
 
 
 </body>

@@ -1,9 +1,8 @@
 package controllers.servlets;
 
+import controllers.Utility.AppStrings;
 import models.Order;
-import models.Product;
-import models.Productbase;
-import models.User;
+import dataaccesslayer.Productbase;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,23 +21,26 @@ public class WelcomeServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("Welcome Servlet");
+
         HttpSession session = request.getSession();
-        boolean isLoggedIn = (session.getAttribute("username") != null);
-        boolean hasPickedCart = (session.getAttribute("cart") != null);
+        boolean isLoggedIn = (session.getAttribute(AppStrings.USERNAME.asStr()) != null);
+        boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
 
        //set cart
         if (hasPickedCart) {
-            request.setAttribute("cart", session.getAttribute("cart"));
+            request.setAttribute(AppStrings.CART.asStr(), session.getAttribute(AppStrings.CART.asStr()));
         } else {
             ArrayList<Order> cart = new ArrayList<>();
-            request.getSession().setAttribute("cart", cart);
-            request.setAttribute("cart", cart);
+            request.getSession().setAttribute(AppStrings.CART.asStr(), cart);
+            request.setAttribute(AppStrings.CART.asStr(), cart);
         }
         String username = "";
         if(isLoggedIn){
-            username = session.getAttribute("username").toString();
+            username = session.getAttribute(AppStrings.USERNAME.asStr()).toString();
         }
 
+        String pageScript = "<script src='./views/assets/js/sign_in.js'></script>";
 
         //set request attributes
         request.setAttribute("pageTitle", "Welcome");
@@ -46,6 +48,7 @@ public class WelcomeServlet extends HttpServlet {
         request.setAttribute("isloggedIn", isLoggedIn);
         request.setAttribute("products", Productbase.getDb());
         request.setAttribute("username", username);
+        request.setAttribute("pageScript", pageScript);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);

@@ -25,10 +25,13 @@ public class MainFilter implements Filter {
                 }
                 break;
             case "/welcome":
+            case "/getCart":
+            case "/login":
+            case "/logout":
                 chain.doFilter(req, resp);
                 break;
             default:
-                System.out.println(request.getServletPath()); // /index/jsp
+                System.out.println(request.getServletPath() + "-d"); // /index/jsp
 //                System.out.println(request.getContextPath()); // /webstore
 //                System.out.println(request.getRequestURI()); // /webstore/
                 chain.doFilter(req, resp);

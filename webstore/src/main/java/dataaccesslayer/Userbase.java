@@ -1,5 +1,7 @@
-package models;
+package dataaccesslayer;
 
+
+import models.User;
 
 import java.util.HashMap;
 
@@ -10,7 +12,6 @@ public class Userbase {
         if (user == null) return false;
         setDB();
         return db.containsValue(user);
-
     }
 
     private static void setDB(){
