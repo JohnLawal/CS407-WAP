@@ -1,5 +1,7 @@
 package controllers.Utility;
 
+import java.util.ArrayList;
+
 public enum AppStrings {
     STATUS("status"),
     SUCCESS("success"),
@@ -9,6 +11,12 @@ public enum AppStrings {
     PASSWORD("password"),
     REMEMBER("remember"),
     PROMO("promo"),
+    PRODUCT("product"),
+    PRODUCT_ID("product_id"),
+    ADDRESS("address"),
+    LOCATION("location"),
+    PAYMENT_METHOD("payment_method"),
+    QUANTITY("quantity"),
     CART("cart");
 
     String strVal;
@@ -27,4 +35,14 @@ public enum AppStrings {
                 + "<strong>" + topic + "</strong>" + message
                 + "</div>";
     }
+
+    public static ArrayList<String> getLocations() {
+        ArrayList<String> locations = new ArrayList<>();
+        locations.add("Fairfield");
+        locations.add("Ottumwa");
+        locations.add("Iowa City");
+        locations.add("Cedar Rapids");
+        return locations;
+    }
+
 }

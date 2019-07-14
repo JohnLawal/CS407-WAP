@@ -21,8 +21,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?= base_url() ?>"><img
-                        src="<c:url value='./views/assets/images/favicontext.png' />" style="width: 60px;"/></a>
+                <a class="navbar-brand" href="<c:url value='/welcome' />"><img
+                        src="<c:url value='/views/assets/images/favicontext.png' />" style="width: 60px;"/></a>
             </div>
 
             <div class="collapse navbar-collapse">

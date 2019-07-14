@@ -1,4 +1,4 @@
-let $ = jQuery;
+// let $ = jQuery;
 
 function signIn() {
     let signInNotice = $('#signinNotice');

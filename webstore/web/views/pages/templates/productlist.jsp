@@ -15,7 +15,7 @@
                     <div class="col-sm-3 home-product">
                         <div class="card card-blog">
                             <div class="">
-                                <a href="#">
+                                <a href="<c:url value='/viewProduct'><c:param name='product' value='${product.getId()}' /></c:url>">
                                     <img class="img" alt="product"
                                          src="<c:url value='./views/assets/images/products/${product.getId()}.png'/>"/>
                                 </a>

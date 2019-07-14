@@ -28,6 +28,9 @@ public class MainFilter implements Filter {
             case "/getCart":
             case "/login":
             case "/logout":
+            case "/viewProduct":
+            case "/addToCart":
+            case "/updateItemInCart":
                 chain.doFilter(req, resp);
                 break;
             default:

@@ -1,5 +1,7 @@
 package controllers.servlets;
 
+import controllers.Utility.AppStrings;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,7 +18,9 @@ public class LogoutServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        session.invalidate();
+        if(session.getAttribute(AppStrings.USERNAME.asStr()) != null)
+            session.removeAttribute(AppStrings.USERNAME.asStr());
+
         response.sendRedirect("welcome");
     }
 }

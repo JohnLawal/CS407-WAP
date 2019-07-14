@@ -104,7 +104,7 @@
                                 </ul>
                             </div>
                             <hr>
-                            <a href="<?= base_url('checkout') ?>"
+                            <a href="<c:url value='/checkout'/>"
                                class="cart_checkout btn btn-white btn-raised btn-round">
                                 Check Out
                             </a>

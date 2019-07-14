@@ -24,14 +24,14 @@ public class CartServlet extends HttpServlet {
         System.out.println("Cart Servlet");
 
         HttpSession session = request.getSession();
-        boolean hasPickedCart = (session.getAttribute("cart") != null);
+        boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
 
         Map<String, Object> result = new HashMap<>();
 
         //set cart
         if (hasPickedCart) {
             result.put("status", AppStrings.SUCCESS.asStr());
-            result.put("cart", session.getAttribute("cart"));
+            result.put("cart", session.getAttribute(AppStrings.CART.asStr()));
             //serialize and send
         } else {
             result.put("status", AppStrings.SUCCESS.asStr());

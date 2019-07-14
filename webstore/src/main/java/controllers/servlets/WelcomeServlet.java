@@ -32,7 +32,7 @@ public class WelcomeServlet extends HttpServlet {
             request.setAttribute(AppStrings.CART.asStr(), session.getAttribute(AppStrings.CART.asStr()));
         } else {
             ArrayList<Order> cart = new ArrayList<>();
-            request.getSession().setAttribute(AppStrings.CART.asStr(), cart);
+            session.setAttribute(AppStrings.CART.asStr(), cart);
             request.setAttribute(AppStrings.CART.asStr(), cart);
         }
         String username = "";
