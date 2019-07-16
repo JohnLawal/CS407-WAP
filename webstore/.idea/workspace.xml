@@ -7,58 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36bf5b89-cbb2-4f58-b460-af91e579c59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/assets/js/checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/pages/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/pages/viewproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/FindProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/pages/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/Utility/AppStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/Utility/AppStrings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/filters/MainFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/filters/MainFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/AddToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/AddToCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/CheckoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/ClearCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/ClearCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/RemoveFromCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/RemoveFromCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/UpdateCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/UpdateCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/controllers/servlets/WelcomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/dataaccesslayer/Productbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/dataaccesslayer/Productbase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/dataaccesslayer/Userbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/dataaccesslayer/Userbase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/classes/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/assets/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/assets/js/sign_in.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/assets/js/sign_in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/modals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/modals.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/productlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/views/pages/templates/productlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataaccesslayer/Userbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataaccesslayer/Userbase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/Utility/AppStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/Utility/AppStrings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/filters/MainFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/filters/MainFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/AddToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/AddToCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/CheckoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/ClearCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/ClearCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/RemoveFromCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/RemoveFromCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/UpdateCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/UpdateCartServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/WelcomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataaccesslayer/Productbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataaccesslayer/Productbase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataaccesslayer/Userbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataaccesslayer/Userbase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/assets/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/assets/js/sign_in.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/assets/js/sign_in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/pages/templates/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/pages/templates/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/pages/templates/modals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/pages/templates/modals.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/pages/templates/productlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/pages/templates/productlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,31 +72,38 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/assets/js/checkout.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/FindProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="127">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/views/pages/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
-                <element signature="method#doGet#0;class#CheckoutServlet#0" />
+                <element signature="e#206#239#0#HTML" expanded="true" />
+                <element signature="e#832#870#0#HTML" expanded="true" />
+                <element signature="e#1722#3329#0#HTML" />
+                <element signature="e#3148#3184#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/pages/checkout.jsp">
+        <entry file="file://$PROJECT_DIR$/web/views/pages/viewproduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="93" column="58" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="58" />
+            <state relative-caret-position="841">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="112" selection-end-column="18" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +113,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Enum" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -150,36 +155,38 @@
         <option value="$PROJECT_DIR$/web/views/assets/css/creative_main.css" />
         <option value="$PROJECT_DIR$/web/views/assets/css/material-kit.min3f71.css" />
         <option value="$PROJECT_DIR$/src/main/java/models/Productbase.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Product.java" />
         <option value="$PROJECT_DIR$/web/views/pages/templates/footer.jsp" />
         <option value="$PROJECT_DIR$/web/views/pages/templates/head.jsp" />
         <option value="$PROJECT_DIR$/web/views/pages/templates/productlist.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java" />
         <option value="$PROJECT_DIR$/web/views/pages/templates/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/models/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java" />
         <option value="$PROJECT_DIR$/web/views/assets/js/sign_in.js" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/web/views/assets/js/cart.js" />
         <option value="$PROJECT_DIR$/web/views/pages/templates/modals.jsp" />
-        <option value="$PROJECT_DIR$/web/views/pages/viewproduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataaccesslayer/Userbase.java" />
         <option value="$PROJECT_DIR$/web/views/pages/checkout.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/views/assets/js/checkout.js" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/web/views/pages/viewproduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/servlets/FindProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java" />
+        <option value="$PROJECT_DIR$/web/views/pages/search.jsp" />
       </list>
     </option>
   </component>
@@ -261,8 +268,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="dataaccesslayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webstore" type="b2602c69:ProjectViewProjectNode" />
@@ -281,12 +287,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,18 +426,18 @@
       <option name="presentableId" value="Default" />
       <updated>1562967862804</updated>
       <workItem from="1562967885579" duration="33638000" />
-      <workItem from="1563046125025" duration="38284000" />
+      <workItem from="1563046125025" duration="51236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71922000" />
+    <option name="totallyTimeSpent" value="84874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74007934" visible="true" weight="0.15355521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74007934" visible="true" weight="0.21482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -448,7 +448,7 @@
       <window_info id="Web" order="8" sideWeight="0.25992063" side_tool="true" weight="0.32744783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2549923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.41781875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,11 +487,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/views/assets/plugins/bootstrap/bootstrap-notify.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/AuthFilter.java" />
-    <entry file="file://$PROJECT_DIR$/web/views/pages/templates/index.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WelcomeServlet.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.9/jackson-annotations-2.9.9.jar!/com/fasterxml/jackson/annotation/PropertyAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -625,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/assets/js/sign_in.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -639,28 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="e#808#874#1" />
-            <element signature="e#878#951#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/pages/templates/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/pages/templates/productlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -675,37 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/pages/viewproduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/pages/templates/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="43" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -728,90 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doGet#0;class#LoginServlet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataaccesslayer/Userbase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="method#doGet#0;class#ProductServlet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="46" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -827,24 +683,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/assets/js/checkout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/ClearCartServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="82">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doGet#0;class#LoginServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/UpdateCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="method#doGet#0;class#UpdateCartServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/RemoveFromCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/FilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/AddToCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/WelcomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/CheckoutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <element signature="method#doGet#0;class#CheckoutServlet#0" />
+            <element signature="method#doPost#0;class#CheckoutServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="method#doPost#0;class#ProductServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding>
+            <element signature="n#servlet#0;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#0;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#1;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#1;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#2;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#2;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#3;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#3;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#4;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#4;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#5;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#5;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#7;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#7;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#8;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#8;n#web-app#0;n#!!top" />
+            <element signature="n#servlet#9;n#web-app#0;n#!!top" />
+            <element signature="n#servlet-mapping#9;n#web-app#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="method#equals#0;class#Product#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/pages/templates/productlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/Utility/AppStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/servlets/FindProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/filters/MainFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+          <folding>
+            <element signature="method#init#0;class#MainFilter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataaccesslayer/Productbase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="147" selection-start-line="24" selection-start-column="147" selection-end-line="24" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/pages/viewproduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="112" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/pages/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#206#239#0#HTML" expanded="true" />
+            <element signature="e#832#870#0#HTML" expanded="true" />
+            <element signature="e#1722#3329#0#HTML" />
+            <element signature="e#3148#3184#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,7 +17,8 @@ public enum AppStrings {
     LOCATION("location"),
     PAYMENT_METHOD("payment_method"),
     QUANTITY("quantity"),
-    CART("cart");
+    CART("cart"),
+    IS_LOGGED_IN("isloggedIn");
 
     String strVal;
 

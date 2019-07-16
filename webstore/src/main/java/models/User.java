@@ -1,6 +1,8 @@
 package models;
 
-public class User {
+import java.io.Serializable;
+
+public class User  {
     private String username;
     private String password;
     private String phone;

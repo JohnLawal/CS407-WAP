@@ -19,11 +19,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-@WebServlet(name = "AddToCartServlet", urlPatterns = {"/addToCart"})
 public class AddToCartServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Add To Cart Servlet");
-
+    protected synchronized void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int product_id = Integer.parseInt(request.getParameter(AppStrings.PRODUCT_ID.asStr()));
         int quantity = Integer.parseInt(request.getParameter(AppStrings.QUANTITY.asStr()));
 

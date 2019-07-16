@@ -7,18 +7,13 @@ import models.User;
 
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "LoginServlet",
-        urlPatterns = {"/login"})
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Login Servlet");
-
         String username = request.getParameter(AppStrings.USERNAME.asStr());
         String password = request.getParameter(AppStrings.PASSWORD.asStr());
 
@@ -47,7 +42,7 @@ public class LoginServlet extends HttpServlet {
 
             HttpSession session = request.getSession();
             session.setAttribute(AppStrings.USERNAME.asStr(), username);
-            session.setMaxInactiveInterval(3600);
+//            session.setMaxInactiveInterval(3600);
 
             result.put(AppStrings.STATUS.asStr(), AppStrings.SUCCESS.asStr());
             result.put(AppStrings.MESSAGE.asStr(), AppStrings.returnAlert("success","Access Granted. ","You have been logged in."));

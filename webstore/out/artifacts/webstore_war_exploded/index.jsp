@@ -19,6 +19,14 @@
                 <div class="brand">
                     <h1 class="title">Good Software, Good Life!</h1>
                     <h4>Brilliant, lab-fresh, naturally developed software solutions for your enjoyment</h4>
+                    <div>
+                        <form class="navbar-form" role="search" method="get" action="<c:url value='/search'/>">
+                            <div class="form-group form-white is-empty">
+                                <input id="homesearch" type="text" class="form-control" required="" placeholder="Search for Products" name="product" style="color:#FFF;text-align: center;">
+                                <span class="material-input"></span></div>
+                            <button type="submit" class="btn btn-white btn-raised btn-fab btn-fab-mini"><i class="material-icons">search</i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

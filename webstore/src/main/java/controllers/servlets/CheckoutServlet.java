@@ -19,11 +19,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "CheckoutServlet", urlPatterns = {"/checkout"})
 public class CheckoutServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Checkout Servlet Post");
-
+    protected synchronized void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         boolean isLoggedIn = (session.getAttribute(AppStrings.USERNAME.asStr()) != null);
         boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
@@ -65,28 +62,22 @@ public class CheckoutServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Checkout Servlet");
-
         HttpSession session = request.getSession();
-        boolean isLoggedIn = (session.getAttribute(AppStrings.USERNAME.asStr()) != null);
+        boolean isLoggedIn = (Boolean) request.getAttribute(AppStrings.IS_LOGGED_IN.asStr());
         boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
 
         if (hasPickedCart) {
             //for view
             request.setAttribute(AppStrings.CART.asStr(), session.getAttribute(AppStrings.CART.asStr()));
-        } else {
-
         }
 
         String pageScript = "";
         if (isLoggedIn) {
             String username = session.getAttribute(AppStrings.USERNAME.asStr()).toString().trim();
             request.setAttribute("user", Userbase.getUser(username));
-
         } else {
             pageScript = "<script src='./views/assets/js/sign_in.js'></script>";
             request.setAttribute("user", null);
-
         }
 
         pageScript += "<script src='./views/assets/js/checkout.js'></script>";
@@ -94,8 +85,6 @@ public class CheckoutServlet extends HttpServlet {
         //set request attributes
         request.setAttribute("pageTitle", "Checkout");
         request.setAttribute("pageStyle", "");
-        request.setAttribute("isloggedIn", isLoggedIn);
-//        request.setAttribute("product", requestedProduct);
         request.setAttribute("locations", AppStrings.getLocations());
         request.setAttribute("pageScript", pageScript);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/views/pages/checkout.jsp");

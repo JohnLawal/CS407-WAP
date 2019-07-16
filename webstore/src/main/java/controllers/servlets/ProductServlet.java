@@ -15,17 +15,14 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet(name = "ProductServlet", urlPatterns = {"/viewProduct"})
 public class ProductServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Product Servlet");
-
         HttpSession session = request.getSession();
-        boolean isLoggedIn = (session.getAttribute(AppStrings.USERNAME.asStr()) != null);
+        boolean isLoggedIn =  (Boolean) request.getAttribute(AppStrings.IS_LOGGED_IN.asStr());
         boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
 
         String productId = request.getParameter(AppStrings.PRODUCT.asStr());
@@ -51,7 +48,6 @@ public class ProductServlet extends HttpServlet {
         //set request attributes
         request.setAttribute("pageTitle", "View Product -" + requestedProduct.getName());
         request.setAttribute("pageStyle", "");
-        request.setAttribute("isloggedIn", isLoggedIn);
         request.setAttribute("product", requestedProduct);
         request.setAttribute("advertisedproducts", Productbase.getAdverts());
         request.setAttribute("username", username);

@@ -1,11 +1,12 @@
 package models;
 
+
 public class Product {
     private int product_id;
     private String product_name;
     private double selling_price;
 
-    public Product( int product_id, String product_name, double selling_price) {
+    public Product(int product_id, String product_name, double selling_price) {
         this.product_id = product_id;
         this.product_name = product_name;
         this.selling_price = selling_price;
@@ -24,9 +25,9 @@ public class Product {
     }
 
     @Override
-    public boolean equals(Object product){
+    public boolean equals(Object product) {
         if (product == null) return false;
-        if(! (product instanceof Product)) return false;
+        if (!(product instanceof Product)) return false;
         Product nProduct = (Product) product;
         return nProduct.getId() == this.product_id;
     }

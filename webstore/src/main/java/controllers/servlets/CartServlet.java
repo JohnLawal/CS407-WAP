@@ -14,15 +14,12 @@ import java.util.Map;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import controllers.Utility.AppStrings;
 
-@WebServlet(name = "CartServlet", urlPatterns = {"/getCart"})
 public class CartServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Cart Servlet");
-
         HttpSession session = request.getSession();
         boolean hasPickedCart = (session.getAttribute(AppStrings.CART.asStr()) != null);
 
