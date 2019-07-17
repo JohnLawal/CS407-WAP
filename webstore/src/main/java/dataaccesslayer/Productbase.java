@@ -63,7 +63,6 @@ public class Productbase {
             db.add(new Product(9, "Yahoo", 2600));
             db.add(new Product(10, "Calculator", 3200));
         }
-
     }
 
 

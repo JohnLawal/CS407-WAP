@@ -1,10 +1,16 @@
 package models;
 
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
     private int product_id;
     private String product_name;
     private double selling_price;
+
+    public Product(){
+
+    }
 
     public Product(int product_id, String product_name, double selling_price) {
         this.product_id = product_id;

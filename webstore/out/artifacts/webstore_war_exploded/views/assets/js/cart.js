@@ -10,8 +10,6 @@ function addToCart(productid) {
         "product_id": productid,
         "quantity": quantity
     };
-
-
     //
     $('body').preloader();
     $.ajax({
@@ -42,15 +40,12 @@ function addToCart(productid) {
                     content: 'Could not complete the process. ' + resultObj['message']
                 });
             }
-
-
         },
         error: function (xhr, status, error) {
             $.alert({
                 title: 'Not Added',
                 content: 'Could not complete the process. ' + error
             });
-
         }
     });
 }

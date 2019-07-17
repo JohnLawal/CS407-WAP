@@ -2,12 +2,16 @@ package models;
 
 import java.io.Serializable;
 
-public class User  {
+public class User  implements Serializable{
     private String username;
     private String password;
     private String phone;
     private String email;
     private String address;
+
+    public User(){
+
+    }
 
     public User(String username, String password) {
         this.username = username;
@@ -52,5 +56,4 @@ public class User  {
         User nUser = (User) user;
         return nUser.getUsername().equals(this.getUsername()) && nUser.getPassword().equals(this.getPassword());
     }
-
 }

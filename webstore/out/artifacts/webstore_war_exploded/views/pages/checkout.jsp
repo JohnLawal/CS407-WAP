@@ -27,11 +27,11 @@
                                     <div class="col-md-6">
                                         <label for="txtName">Username</label><br />
                                         <div class="form-group name">
-                                            <input class="form-control" readonly="" id="txtName" name="name" type="text" value="${user.getUsername()}" aria-invalid="false" aria-required="true" required>
+                                            <input class="form-control" readonly="" id="txtName" name="name" type="text" value="${user.username}" aria-invalid="false" aria-required="true" required>
                                         </div>
                                         <label for="txtPhone">Phone</label><br />
                                         <div class="form-group phone">
-                                            <input class="form-control" readonly="" id="txtPhone" name="phone" type="tel" value="${user.getPhone()}" aria-invalid="false" aria-required="true" required>
+                                            <input class="form-control" readonly="" id="txtPhone" name="phone" type="tel" value="${user.phone}" aria-invalid="false" aria-required="true" required>
                                         </div>
                                         <label for="optCity">Location</label><br />
                                         <div class="form-group city">
@@ -52,11 +52,11 @@
                                     <div class="col-md-6" >
                                         <label for="txtEmail">E-mail</label><br />
                                         <div class="form-group email">
-                                            <input class="form-control" readonly="" id="txtEmail" name="email" type="email" value="${user.getEmail()}" aria-invalid="false" aria-required="true" required>
+                                            <input class="form-control" readonly="" id="txtEmail" name="email" type="email" value="${user.email}" aria-invalid="false" aria-required="true" required>
                                         </div>
                                         <label for="txtAddress">Address</label><br />
                                         <div class="form-group message">
-                                            <input class="form-control" id="txtAddress" name="address" type="text" value="${user.getAddress()}" aria-invalid="false" aria-required="true" required>
+                                            <input class="form-control" id="txtAddress" name="address" type="text" value="${user.address}" aria-invalid="false" aria-required="true" required>
                                         </div>
                                         <label for="txtState">State</label><br />
                                         <div class="form-group state">
