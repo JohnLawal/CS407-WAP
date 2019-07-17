@@ -18,7 +18,10 @@ public enum AppStrings {
     PAYMENT_METHOD("payment_method"),
     QUANTITY("quantity"),
     CART("cart"),
-    IS_LOGGED_IN("isloggedIn");
+    IS_LOGGED_IN("isloggedIn"),
+    FACEBOOK_LINK("facebook-link"),
+    INSTAGRAM_LINK("instagram-link"),
+    TWITTERLINK("twitter-link");
 
     String strVal;
 

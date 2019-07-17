@@ -46,6 +46,10 @@ public class MainFilter implements Filter {
             case "/viewProduct":
             case "/checkout":
                 request.setAttribute(AppStrings.IS_LOGGED_IN.asStr(), isLoggedIn);
+                request.setAttribute("facebooklink", request.getServletContext().getInitParameter(AppStrings.FACEBOOK_LINK.asStr()));
+                request.setAttribute("twitterlink", request.getServletContext().getInitParameter(AppStrings.TWITTERLINK.asStr()));
+                request.setAttribute("instagramlink", request.getServletContext().getInitParameter(AppStrings.INSTAGRAM_LINK.asStr()));
+
                 chain.doFilter(request, response);
                 break;
             case "/getCart":

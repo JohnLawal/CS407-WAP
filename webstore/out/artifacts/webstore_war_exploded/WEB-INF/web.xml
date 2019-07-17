@@ -11,6 +11,18 @@
         <param-name>delivery-fee</param-name>
         <param-value>500</param-value>
     </context-param>
+    <context-param>
+        <param-name>facebook-link</param-name>
+        <param-value>https://www.facebook.com/johnimholawal</param-value>
+    </context-param>
+    <context-param>
+        <param-name>instagram-link</param-name>
+        <param-value>https://www.instagram.com/thejohnlawal/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>twitter-link</param-name>
+        <param-value>https://twitter.com/whichisfaster</param-value>
+    </context-param>
 
     <!--    add to cart-->
     <servlet>
@@ -82,7 +94,7 @@
         <url-pattern>/viewProduct</url-pattern>
     </servlet-mapping>
     <!--end-->
-<!--    search-->
+    <!--    search-->
     <servlet>
         <servlet-name>search-servlet</servlet-name>
         <servlet-class>controllers.servlets.FindProductServlet</servlet-class>

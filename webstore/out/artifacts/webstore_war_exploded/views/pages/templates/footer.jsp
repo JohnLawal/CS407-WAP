@@ -7,17 +7,15 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-
 <footer class="footer">
     <div class="container">
         <div class="col-md-12">
             <div class="col-md-3">
-                    <a href="#" target="_blank"><img src="<c:url value='./views/assets/images/favicontext.png'/>"
+                    <a href="<c:url value='https://jlawal.com'/>" target="_blank"><img src="<c:url value='./views/assets/images/favicontext.png'/>"
                                                      alt="JLawal" class="img-responsive" height="200" width="200"></a>
             </div>
             <div class="col-md-3">
-                <h3 class="footer-head">ABOUT JLawal</h3>
+                <h3 class="footer-head">ABOUT JLAWAL</h3>
                 <p>We deliver brilliant, lab-fresh, naturally developed software solutions for your enjoyment.</p>
             </div>
             <div class="col-md-3">
@@ -45,14 +43,14 @@
         <div class="row">
             <div class="col-md-12">
                 <h4 class="pre-header">Our Social Media Accounts:</h4>
-                <a href="#" target="_blank"
+                <a href="<c:url value='${facebooklink}'/>" target="_blank"
                    class="btn btn-sm btn-primary">
                     <img src="https://farm360.org/assets/content/uploads/facebook.png" alt="Facebook">
                     Facebook </a>
-                <a href="#" class="btn btn-sm btn-primary" target="_blank">
+                <a href="<c:url value='${instagramlink}'/>" class="btn btn-sm btn-primary" target="_blank">
                     <img src="https://farm360.org/assets/content/uploads/instagram.png" alt="Instagram">
                     Instagram </a>
-                <a href="#" class="btn btn-sm btn-primary" target="_blank">
+                <a href="<c:url value='${twitterlink}'/>" class="btn btn-sm btn-primary" target="_blank">
                     <img src="https://farm360.org/assets/content/uploads/twitter.png" alt="Twitter">
                     Twitter </a>
             </div>
